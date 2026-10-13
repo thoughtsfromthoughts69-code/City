@@ -1,0 +1,193 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "building-c"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1953,
+      "type": "VEC3",
+      "max": [
+        0.4417939782142639,
+        0.8930000066757202,
+        0.5450000762939453
+      ],
+      "min": [
+        -0.44179391860961914,
+        0,
+        -0.5450000166893005
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1953,
+      "type": "VEC3",
+      "max": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "min": [
+        -1.0000001192092896,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1953,
+      "type": "VEC4",
+      "max": [
+        1.0000001192092896,
+        0.70710688829422,
+        1.0000001192092896,
+        1
+      ],
+      "min": [
+        -1.0000001192092896,
+        -0.70710688829422,
+        -1.0000001192092896,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1953,
+      "type": "VEC2",
+      "max": [
+        0.71875,
+        0.9750000238418579
+      ],
+      "min": [
+        0.09375,
+        0.35500001907348633
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3585,
+      "type": "SCALAR",
+      "max": [
+        1952
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 100916,
+      "uri": "buffer.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 23436,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23436,
+      "byteLength": 23436,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46872,
+      "byteLength": 31248,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 78120,
+      "byteLength": 15624,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 93744,
+      "byteLength": 7172,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "Textures/colormap.png",
+      "name": "colormap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0
+      },
+      "doubleSided": true,
+      "name": "colormap"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "building-c"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "building-c"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "colormap"
+    }
+  ]
+}

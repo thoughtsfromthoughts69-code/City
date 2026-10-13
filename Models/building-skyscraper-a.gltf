@@ -1,0 +1,193 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "building-skyscraper-a"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2118,
+      "type": "VEC3",
+      "max": [
+        0.6799994111061096,
+        2.879999876022339,
+        0.6800000667572021
+      ],
+      "min": [
+        -0.680000364780426,
+        0,
+        -0.6800000667572021
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2118,
+      "type": "VEC3",
+      "max": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "min": [
+        -1.0000001192092896,
+        -1,
+        -1.0000001192092896
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2118,
+      "type": "VEC4",
+      "max": [
+        1.0000001192092896,
+        0.70710688829422,
+        1.0000001192092896,
+        1
+      ],
+      "min": [
+        -1.0000001192092896,
+        -0.70710688829422,
+        -1.0000001192092896,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2118,
+      "type": "VEC2",
+      "max": [
+        0.71875,
+        0.7250000238418579
+      ],
+      "min": [
+        0.09375,
+        0.35500001907348633
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3876,
+      "type": "SCALAR",
+      "max": [
+        2117
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 109416,
+      "uri": "buffer.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25416,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25416,
+      "byteLength": 25416,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 50832,
+      "byteLength": 33888,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 84720,
+      "byteLength": 16944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 101664,
+      "byteLength": 7752,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "Textures/colormap.png",
+      "name": "colormap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0
+      },
+      "doubleSided": true,
+      "name": "colormap"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "building-skyscraper-a"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "building-skyscraper-a"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "colormap"
+    }
+  ]
+}
